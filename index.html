@@ -1,33 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>HTML 5 Boilerplate</title>
+    <title>Snake Game</title>
     <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
-    <div>
-      <p>new code is here</p>
-        <p>yes, we got it !</p>
+</head>
+<body>
+    <div class="body">
+        <div class="dpad">
+            <div id="up"></div>
+            <div id="down"></div>
+            <img id="playPause" src="./Images/playbtn.png"></img>
+            <div id="left"></div>
+            <div id="right"></div>
+        </div>
+        <div id="board"></div>
+        <div class="scoreContainer">
+            <div id="scoreBox">Score : 0</div>
+            <div id="hiscoreBox">HiScore: 0</div>
+        </div>
     </div>
-	<script src="index.js"></script>
-  </body>
+    <img id = "logo" src="./Images/snake.png" alt="snake">
+    <div class="gameOver">
+        Game Over 😔 to play again <br> <button id="gOver">Restart</button>
+    </div>
+</body>
+<script src="App.js"></script>
 </html>
-
-
-
-1. git clone   (one time only)
-
-
-2. git status
-3. git add .      (all files code will be staging)      git add styles.css   (this commond works for only index.html file to go to staging area )
-4. git commit -m "first code to be commited"
-5. git push     or     git push origin master    (to add in particular branch)
-
-finish 
-
-
-monitoring - git log
-
